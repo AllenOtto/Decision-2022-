@@ -11,6 +11,7 @@ body {
 	background-image: url('../img/bg-img-2.jpg');
 	background-size: cover;
 	background-blend-mode: blue;
+	background-attachment: fixed;
 	background-position: center;
 	color: #fece2f;
 }
