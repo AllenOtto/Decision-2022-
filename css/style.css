@@ -1,0 +1,119 @@
+/*General Styling*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+body {
+	background-image: url('../img/bg-img-2.jpg');
+	background-size: cover;
+	background-blend-mode: blue;
+	background-position: center;
+	color: #fece2f;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	transition: all .3s ease;
+}
+
+a:hover{
+	color: #fece2f;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	color: white;
+	padding: 1rem 0;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	border: 6px solid white;
+	padding: 5rem 2rem;
+}
+
+/*Header Section Styling*/
+.header-flex-container {
+	display: flex;
+	padding: 1rem;
+}
+
+.header-flex-container img {
+	height: 4rem;
+	margin-left: 2rem;
+}
+
+.header-flex-container img {
+	width: 7%;
+}
+
+.header-flex-container nav {
+	width: 60%;
+	margin-left: 15rem;
+	margin-top: 1.3rem;
+
+}
+
+.header-flex-container nav ul {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header-flex-container nav ul li{
+	width: 80%;
+}
+
+nav ul {
+	display: flex;
+	margin-right: 20rem;
+}
+
+/*Hero Section Styling*/
+.hero {
+	text-align: center;
+}
+
+.bg-hero {
+	width: 100%;
+}
+
+/*Main Section Styling*/
+.main img {
+	width: 30%;
+	/*text-align: center;*/
+}
+
+.main .main-caption {
+	width: 60%;
+}
+
+.sub-section {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.one {
+	margin-bottom: 2rem;
+}
+
+.two {
+	margin-top: 2rem;
+}
+
+.two img {
+	border: 5px solid red;
+}
+
+/*Footer Section Styling*/
