@@ -37,8 +37,8 @@ h2 {
 .container {
 	width: 80%;
 	margin: 0 auto;
-	border: 2px solid white;
-	padding: 5rem 2rem;
+	/*border: 2px solid white;*/
+	padding: 10rem 2rem;
 }
 
 /*Header Section Styling*/
@@ -103,11 +103,11 @@ nav ul {
 }
 
 .one {
-	margin-bottom: 2rem;
+	margin-bottom: 4rem;
 }
 
 .two {
-	margin-top: 2rem;
+	margin-top: 4rem;
 }
 
 .two img {
@@ -126,3 +126,22 @@ nav ul {
 }
 
 /*Footer Section Styling*/
+
+.footer {
+	padding: 2rem 2rem 0;
+}
+
+.footer .sub-section {
+	padding: 1rem 2rem .5rem;
+}
+
+.links ul {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 1rem;
+}
+
+.rights {
+	padding: .5rem 2rem;
+	text-align: center;
+}
